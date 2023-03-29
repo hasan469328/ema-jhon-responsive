@@ -22,7 +22,7 @@ const Product = (props) => {
         <p className='text-[#2A414F] px-2'>Rating: {ratings} star</p>
       </div>
 
-      <button onClick={() => addToCart(props.product)} className='bg-[#ff99004d] w-full px-0 absolute bottom-0 rounded-b-lg text-[#0E161A] p-2'>Add to Cart <FontAwesomeIcon icon={faShoppingCart} /></button>
+      <button onClick={() => addToCart(props.product)} className='bg-[#ff99004d] w-full px-0 absolute bottom-0 rounded-b-lg text-[#0E161A] p-2 hover:bg-[#fc9803d3]'>Add to Cart <FontAwesomeIcon icon={faShoppingCart} /></button>
 
     </div>
   );
